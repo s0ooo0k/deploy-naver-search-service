@@ -43,7 +43,7 @@ public class SearchService {
                 "https://openapi.naver.com/v1/search/news.json?query=%s".formatted(keyword),
                 "GET",
                 body
-                 , "X-Naver-Client-Id", clientID, "X-Naver-Client-Secret", clientSecret
+                , "X-Naver-Client-Id", clientID, "X-Naver-Client-Secret", clientSecret
         );
 //        logger.info(apiClient.callAPI(param));
         ObjectMapper objectMapper = new ObjectMapper();
